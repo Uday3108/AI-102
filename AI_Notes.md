@@ -86,3 +86,26 @@ Azure AI Foundry:
         Azure AI Face
         Azure AI Document Intelligence
         Azure AI Content Understanding
+
+Azure AI Foundry
+
+    Azure AI Foundry is a comprehensive platform on Microsoft Azure for building, managing, and deploying AI solutions. While individual Azure AI services can be used separately, Azure AI Foundry streamlines project organization, resource management, and AI development, making it the preferred approach for most AI projects.
+
+It includes:
+
+    Azure AI Foundry Portal – a visual, web-based interface for managing AI projects.
+    Azure AI Foundry SDK – tools for programmatic AI solution development.
+
+Projects in Azure AI Foundry come in two types:
+
+Foundry Projects:
+    Linked to an Azure AI Foundry resource.
+    Support OpenAI models, Agent Service, Azure AI services, and responsible AI tools.
+    Best suited for developing generative AI apps and chat agents with centralized management and minimal overhead.
+
+Hub-Based Projects:
+
+    Linked to an Azure AI Hub resource.
+    Include managed compute, Prompt Flow development, Azure Storage, and Key Vault integration.
+    Ideal for advanced AI development, such as model fine-tuning or collaborative work involving data scientists and ML engineers.
+    Accessible via both Azure AI Foundry Portal and Azure Machine Learning Portal.        
